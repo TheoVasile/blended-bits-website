@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+
+body {
+  font-family: "Poiret One", cursive;
+  margin: 0;
+}
+
+section {
+  margin: 0 1em;
+}
+
+h1 {
+  font-weight: 300;
+}
+
+.hero-bg {
+  background: url(/src/images/slider\ 1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  padding-bottom: 20em;
+}
+
+.hero-bg #nav-placeholder {
+  color: black;
+}
+
+.hero-bg #nav-placeholder img {
+  size: 2em;
+}
+
+.hero-bg #nav-placeholder #logo {
+  margin-left: auto;
+}
+
+.hero-bg #nav-placeholder #categories {
+  margin-right: auto;
+}
+
+.hero-bg h1 {
+  text-align: center;
+  padding-top: 4em;
+  font-size: 3rem;
+}
+
+.hero-bg a {
+  color: #FFFFFF;
+}
+
+.hero-bg p {
+  text-align: center;
+  color: #cccccc;
+}
+
+.parallax {
+  background-color: #000000;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 5em 0;
+}
+
+.parallax h2 {
+  margin: 20em 0;
+  font-weight: 300;
+}
