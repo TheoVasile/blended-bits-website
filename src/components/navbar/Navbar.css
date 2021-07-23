@@ -2,6 +2,8 @@
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
+    margin-top: 0;
+    font-weight: 300;
 }
 
 .fa-blendedbits {
@@ -27,6 +29,6 @@
 
 .nav-links:hover {
     text-decoration: underline;
-    text-decoration-color: black;
+    text-decoration-color: white;
     transition: all 0.2s ease-out;
 }

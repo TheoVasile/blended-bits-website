@@ -12,7 +12,7 @@ class Navbar extends Component {
     render(){
         return(
             <nav className="NavbarItems">
-                <h1 className="navbar-logo">BlendedBits<i className="fab fa-blendedbits"></i></h1>
+                <h2 className="navbar-logo">BlendedBits<i className="fab fa-blendedbits"></i></h2>
                 <div className="menu-icon" onClick={this.handleClick}>
                     <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
                 </div>

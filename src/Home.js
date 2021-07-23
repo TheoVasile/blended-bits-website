@@ -1,10 +1,12 @@
 import React from 'react'
 import './Home.css'
+import Navbar from "./components/navbar/Navbar"
 
 function Home() {
     return (
         <body>
             <div class="hero-bg">
+                <Navbar/>
                 <h1>Take your 3D renders to<br></br> the next level</h1>
                 <p>3D assets for any scene</p>
             </div>
