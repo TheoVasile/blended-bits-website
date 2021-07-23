@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 
 .App {
-  text-align: center;
+  box-sizing: border-box;
   font-family: 'Poiret One', cursive;
 }

@@ -1,6 +1,14 @@
+.NavbarItems {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height:5em;
+}
+
 .navbar-logo {
+    padding-top: 0.5em;
     justify-self: start;
-    margin-left: 20px;
+    margin-left: 1.5rem;
     cursor: pointer;
     margin-top: 0;
     font-weight: 300;
@@ -13,22 +21,34 @@
 
 .nav-menu {
     display: grid;
-    grid-template-columns: repeat(6, auto);
-    grid-gap: 10px;
-    list-style: none;
-    width:70vw;
-    justify-content: end;
     margin-right: 2rem;
+    font-size: 1.1rem;
+    grid-template-columns: repeat(6, auto);
+    grid-gap: 0.5rem;
+    list-style: none;
+    width: 80vw;
+    justify-content: end;
 }
 
 .nav-links {
     text-decoration: none;
     padding: 0.5rem 1rem;
-    color:black;
 }
 
 .nav-links:hover {
     text-decoration: underline;
     text-decoration-color: white;
     transition: all 0.2s ease-out;
+}
+
+.fa-bars {
+    color: white;
+}
+
+.nav-links-mobile {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
 }
