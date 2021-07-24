@@ -14,7 +14,7 @@ h1 {
 }
 
 .hero-bg {
-  background: url(/src/images/slider\ 1.png);
+  background: element(#carousel);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
