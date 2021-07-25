@@ -7,15 +7,16 @@ import {SliderData} from "./SliderData"
 class ImageCarousel extends Component{
     render() {
         return (
-            <Carousel className="carousel" showArrows={true}>
-                <link rel="stylesheet" href="<NODE_MODULES_FOLDER>/react-responsive-carousel/lib/styles/carousel.min.css"/>
-
+            <Carousel className="carousel" showArrows={true} autoPlay={true}
+            showThumbs={false} infiniteLoop={true} animationHandler="fade"
+            interval={5000} swipeable={false}>
+                
                 {SliderData.map((slide, index) => {
-                return (
-                        <div>
-                            <img src={slide.image} />
-                        </div>
-                )
+                    return (
+                            <div>
+                                <img src={slide.image} className="slide-image"/>
+                            </div>
+                    )
                 })}
             </Carousel>
         );

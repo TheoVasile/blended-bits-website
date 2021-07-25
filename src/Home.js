@@ -3,18 +3,19 @@ import './Home.css'
 import Navbar from "./components/navbar/Navbar"
 import ImageSlider from './components/ImageSlider'
 import {SliderData} from "./components/SliderData"
-import Carousel from './components/Carousel'
+import ImageCarousel from './components/Carousel'
 
 function Home() {
     return (
         <body>
             <div id="carousel">
-                <Carousel/>
             </div>
             <div class="hero-bg">
                 <Navbar/>
                 <h1>Take your 3D renders to<br></br> the next level</h1>
                 <p>3D assets for any scene</p>
+                <button class="collections-button">Check out our collections</button>
+                <ImageCarousel class="slider"/>
             </div>
             <div class="parallax">
                 <section class="info">

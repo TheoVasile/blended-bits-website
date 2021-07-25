@@ -4,5 +4,8 @@ export const SliderData = [
     },
     {
         image: '/images/picnic.png'
-    }
+    },
+    {
+        image: '/images/kitchen.png'
+    },
 ]

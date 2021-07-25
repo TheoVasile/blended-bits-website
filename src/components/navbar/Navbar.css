@@ -3,6 +3,9 @@
     align-items: center;
     display: flex;
     height:5em;
+    z-index: 2;
+    position: absolute;
+    top: 0px;
 }
 
 .navbar-logo {

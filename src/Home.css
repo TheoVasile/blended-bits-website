@@ -13,8 +13,50 @@ h1 {
   font-weight: 300;
 }
 
+.collections-button {
+  font-family: "Poiret One", cursive;
+  border-style: solid;
+  border-color: white;
+  border-radius: 2rem;
+  border-width: 1px;
+  margin-top: 2em;
+  padding: 1em;
+  position: relative;
+  z-index: 2;
+  align-self: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  color: white;
+  left: 50%;
+  transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transition: ease-in-out 0.25s;
+}
+
+.collections-button:hover {
+  font-family: "Poiret One", cursive;
+  border-style: solid;
+  border-color: white;
+  border-radius: 2rem;
+  border-width: 1px;
+  padding: 1em;
+  position: relative;
+  z-index: 2;
+  align-self: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  color: black;
+  background: white;
+  background-color: white;
+  transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+}
+
 .hero-bg {
-  background: element(#carousel);
+  z-index: 1;
+  background: black;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,10 +64,23 @@ h1 {
   padding-bottom: 20em;
 }
 
+.slider {
+  z-index: 1;
+}
+
 .hero-bg h1 {
   text-align: center;
-  padding-top: 4em;
+  padding-top: 5em;
   font-size: 3rem;
+  z-index: 2;
+  position: relative;
+}
+
+.hero-bg .slider {
+  z-index: 0;
+  position: absolute;
+  margin-top: 0;
+  top: 0px;
 }
 
 .hero-bg a {
@@ -35,6 +90,8 @@ h1 {
 .hero-bg p {
   text-align: center;
   color: #cccccc;
+  position: relative;
+  z-index: 2;
 }
 
 .parallax {
