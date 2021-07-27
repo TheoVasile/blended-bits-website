@@ -6,12 +6,12 @@
     position: absolute;
     margin-top: 0;
     top: 0px;
+    margin-left: 0%;
 }
 
 .slide-image-div {
     z-index: 2;
     position: relative;
-    background-size: cover;
     height: 60em;
     background-position: center;
 }

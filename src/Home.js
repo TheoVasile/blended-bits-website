@@ -3,6 +3,8 @@ import './Home.css'
 import Navbar from "./components/navbar/Navbar"
 import ImageSlider from './components/ImageSlider'
 import {SliderData} from "./components/SliderData"
+import { ParallaxProvider } from 'react-scroll-parallax';
+import { ParallaxBanner } from 'react-scroll-parallax';
 import ImageCarousel from './components/Carousel'
 
 function Home() {
@@ -16,10 +18,19 @@ function Home() {
                 <ImageCarousel class="slider"/>
             </div>
             <div class="parallax">
-                <section class="info">
-                    <h2>Blended Bits provides the most expansive collection of professional-grade assets for any scene</h2>
-                    <h2>Our focus is on letting 3D artists unleash their full creativity without the hassle of creating secondary assets</h2>
-                </section>
+                <ParallaxProvider class="info">
+                    <ParallaxBanner
+                        layers={[
+                            {
+                                image: "/images/drownin.png",
+                                amount: 0.2,
+                            }
+                        ]}
+                        style={{height: '100%'}}>
+                        <h2>Blended Bits provides the most expansive collection of professional-grade assets for any scene</h2>
+                        <h2>Our focus is on letting 3D artists unleash their full creativity without the hassle of creating secondary assets</h2>
+                    </ParallaxBanner>
+                </ParallaxProvider>
             </div>
             <div class="comparison">
                 <section class="advertisment">
