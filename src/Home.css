@@ -9,27 +9,7 @@ h1 {
   font-weight: 300;
 }
 
-.set {
-  max-width: 100%;
-}
-
-.set img {
-  position: relative;
-  z-index: 0;
-  max-width: 100%
-}
-
-.set h2 {
-  margin-top: 7em;
-  padding-left: 2em;
-  position: absolute;
-  z-index: 1;
-  color: white;
-  font-weight: 300;
-}
-
-
-.collections-button {
+.top-button {
   font-family: "Poiret One", cursive;
   border-style: solid;
   border-color: white;
@@ -50,7 +30,7 @@ h1 {
   transition: ease-in-out 0.25s;
 }
 
-.collections-button:hover {
+.top-button:hover {
   font-family: "Poiret One", cursive;
   border-style: solid;
   border-color: white;
@@ -122,6 +102,53 @@ h1 {
 .parallax h2 {
   margin: 30em 0;
   font-weight: 300;
+}
+
+
+.set img {
+  position: relative;
+  z-index: 0;
+  max-width: 100%
+}
+
+.set h2 {
+  margin-top: 7em;
+  padding-left: 2em;
+  position: absolute;
+  z-index: 1;
+  color: white;
+  font-weight: 300;
+}
+
+.set button {
+  position: absolute;
+  z-index: 1;
+  margin-top: 20em;
+  margin-left: 4em;
+  font-family: "Poiret One", cursive;
+  border-style: solid;
+  border-color: white;
+  border-radius: 2rem;
+  border-width: 1px;
+  padding: 1em;
+  color: white;
+  transition: ease-in-out 0.25s;
+}
+
+.set button:hover {
+  position: absolute;
+  z-index: 1;
+  margin-top: 20em;
+  margin-left: 4em;
+  font-family: "Poiret One", cursive;
+  border-style: solid;
+  border-color: white;
+  border-radius: 2rem;
+  border-width: 1px;
+  padding: 1em;
+  color: black;
+  background: white;
+  transition: ease-in-out 0.25s;
 }
 
 .collections {

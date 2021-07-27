@@ -46,18 +46,21 @@ function Home() {
                     <h2>
                         3D Assets for any scene
                     </h2>
+                    <button class="collections-button">Check out the kitchen collection</button>
                     <img src="/images/kitchen 2.png"/>
                 </div>
                 <div class="set">
                     <h2>
                         Populate your renders
                     </h2>
+                    <button class="collections-button">Check out the bathroom collection</button>
                     <img src="/images/bathroom.png"/>
                 </div>
                 <div class="set">
                     <h2>
                         One step closer to realism
                     </h2>
+                    <button class="collections-button">Check out the office collection</button>
                     <img src="/images/office.png"/>
                 </div>
             </div>
