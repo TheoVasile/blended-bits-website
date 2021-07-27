@@ -28,9 +28,6 @@ h1 {
   font-weight: 300;
 }
 
-.collections {
-  max-width: 100%;
-}
 
 .collections-button {
   font-family: "Poiret One", cursive;
@@ -125,4 +122,37 @@ h1 {
 .parallax h2 {
   margin: 30em 0;
   font-weight: 300;
+}
+
+.collections {
+  max-width: 100%;
+  text-align: center;
+  margin: 0%;
+  position: relative;
+}
+
+.collections .title {
+  width: 100%;
+  top:0px;
+  position: absolute;
+  z-index: 2;
+  padding-top: 5em;
+}
+
+
+.collections .title p{
+  width: 100%;
+  top:0px;
+  position: relative;
+  z-index: 2;
+  background-image: linear-gradient(white, transparent);
+  padding-bottom: 7em;
+  transform: translateY(-1px)
+}
+
+.collections .set {
+  position: relative;
+  z-index: 1;
+  top: 0px;
+  transform: translateY(10em)
 }

@@ -38,10 +38,10 @@ function Home() {
                 </section>
             </div>
             <div class="collections">
-                <section class="title">
+                <div class="title">
                     <h1>OUR MOST POPULAR COLLECTIONS</h1>
                     <p>Lorem ipsum</p>
-                </section>
+                </div>
                 <div class="set">
                     <h2>
                         3D Assets for any scene
