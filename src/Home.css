@@ -16,10 +16,11 @@ h1 {
 .set img {
   position: relative;
   z-index: 0;
+  max-width: 100%
 }
 
 .set h2 {
-  margin-top: 50%;
+  margin-top: 7em;
   padding-left: 2em;
   position: absolute;
   z-index: 1;

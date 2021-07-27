@@ -8,8 +8,6 @@ import ImageCarousel from './components/Carousel'
 function Home() {
     return (
         <body>
-            <div id="carousel">
-            </div>
             <div class="hero-bg">
                 <Navbar/>
                 <h1>Take your 3D renders to<br></br> the next level</h1>
