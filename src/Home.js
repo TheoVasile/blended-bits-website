@@ -33,6 +33,24 @@ function Home() {
                     <h1>OUR MOST POPULAR COLLECTIONS</h1>
                     <p>Lorem ipsum</p>
                 </section>
+                <div class="set">
+                    <h2>
+                        3D Assets for any scene
+                    </h2>
+                    <img src="/images/kitchen 2.png"/>
+                </div>
+                <div class="set">
+                    <h2>
+                        Populate your renders
+                    </h2>
+                    <img src="/images/bathroom.png"/>
+                </div>
+                <div class="set">
+                    <h2>
+                        One step closer to realism
+                    </h2>
+                    <img src="/images/office.png"/>
+                </div>
             </div>
         </body>
     )

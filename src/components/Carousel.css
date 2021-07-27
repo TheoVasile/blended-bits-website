@@ -1,15 +1,23 @@
 .carousel.carousel-slider {
-    overflow: inherit;
 }
 
 .carousel {
-    z-index: 0;
+    z-index: 1;
     position: absolute;
     margin-top: 0;
     top: 0px;
 }
 
+.slide-image-div {
+    z-index: 2;
+    position: relative;
+    background-size: cover;
+    height: 60em;
+    background-position: center;
+}
+
 .slide-image {
+    height: 65em;
 }
 
 button {
