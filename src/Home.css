@@ -9,7 +9,7 @@ h1 {
   font-weight: 300;
 }
 
-.top-button {
+.collections-button {
   font-family: "Poiret One", cursive;
   border-style: solid;
   border-color: white;
@@ -30,7 +30,7 @@ h1 {
   transition: ease-in-out 0.25s;
 }
 
-.top-button:hover {
+.collections-button:hover {
   font-family: "Poiret One", cursive;
   border-style: solid;
   border-color: white;
