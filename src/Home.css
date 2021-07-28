@@ -93,25 +93,22 @@ h1 {
 }
 
 #recents {
+  display: flex;
+  flex-wrap: wrap;
   max-width: 100%;
-  display: grid;
-  grid-auto-flow: column;
-  grid-gap: 1em;
-  padding: 10em;
-  justify-items: center;
   position: relative;
   z-index: 2;
   background-color: white;
+  float: center;
 }
 
 #recents .recents-card {
-  height: 20em;
+  height: 30em;
   color: black;
+  padding:5em;
 }
 
 #recents img {
-  position: relative;
-  z-index: 3;
   height: 20em;
   width: 20em;
 }
