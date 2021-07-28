@@ -92,6 +92,35 @@ h1 {
   z-index: 2;
 }
 
+#recents {
+  max-width: 100%;
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 1em;
+  padding: 10em;
+  justify-items: center;
+  position: relative;
+  z-index: 2;
+  background-color: white;
+}
+
+#recents .recents-card {
+  height: 20em;
+  color: black;
+}
+
+#recents img {
+  position: relative;
+  z-index: 3;
+  height: 20em;
+  width: 20em;
+}
+
+#recents p {
+  color: black;
+}
+
+
 .parallax {
   background-color: #000000;
   color: #FFFFFF;

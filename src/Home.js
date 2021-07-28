@@ -1,11 +1,12 @@
-import React from 'react'
-import './Home.css'
-import Navbar from "./components/navbar/Navbar"
-import ImageSlider from './components/ImageSlider'
-import {SliderData} from "./components/SliderData"
+import React from 'react';
+import './Home.css';
+import Navbar from "./components/navbar/Navbar";
+import ImageSlider from './components/ImageSlider';
+import {SliderData} from "./components/SliderData";
 import { ParallaxProvider } from 'react-scroll-parallax';
 import { ParallaxBanner } from 'react-scroll-parallax';
-import ImageCarousel from './components/Carousel'
+import ImageCarousel from './components/Carousel';
+import { Recents } from "./Recents";
 
 function Home() {
     return (
@@ -16,6 +17,17 @@ function Home() {
                 <p>3D assets for any scene</p>
                 <button class="collections-button">Check out our collections</button>
                 <ImageCarousel class="slider"/>
+            </div>
+            <div id="recents">
+                {Recents.map((collection, index) => {
+                    return (
+                        <div class="recents-card">
+                            <img src={collection.image} alt={collection.title}/>
+                            <p>{collection.title}</p>
+                        </div>
+                        )
+                    })
+                }
             </div>
             <div class="parallax">
                 <ParallaxProvider class="info">
