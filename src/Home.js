@@ -64,6 +64,12 @@ function Home() {
                     <img src="/images/office.png"/>
                 </div>
             </div>
+            <div id="end">
+                    <a>Contact us</a>
+                    <a>Help</a>
+                    <a>Terms and conditions</a>
+                    <a>Privacy policies</a>
+            </div>
         </body>
     )
 }
