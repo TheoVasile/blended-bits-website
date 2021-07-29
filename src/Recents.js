@@ -1,14 +1,12 @@
 export const Recents = [
     {
-        image: '/images/kitchen.png',
-        title: 'kitchen set',
+        image: '/images/wine-set.png',
+        title: 'Wine set',
+        price: "$30",
     },
     {
-        image: '/images/kitchen.png',
-        title: 'kitchen set',
-    },
-    {
-        image: '/images/kitchen.png',
-        title: 'kitchen set',
+        image: '/images/cocktail-set.png',
+        title: 'Cocktail set',
+        price: "$20",
     },
 ]

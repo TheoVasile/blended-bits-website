@@ -24,6 +24,7 @@ function Home() {
                         <div class="recents-card">
                             <img src={collection.image} alt={collection.title}/>
                             <p>{collection.title}</p>
+                            <p>{collection.price}</p>
                         </div>
                         )
                     })
