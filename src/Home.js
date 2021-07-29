@@ -21,11 +21,11 @@ function Home() {
             <div id="recents">
                 {Recents.map((collection, index) => {
                     return (
-                        <div class="recents-card">
+                        <a class="recents-card" href={collection.link}>
                             <img src={collection.image} alt={collection.title}/>
                             <p>{collection.title}</p>
                             <p>{collection.price}</p>
-                        </div>
+                        </a>
                         )
                     })
                 }
