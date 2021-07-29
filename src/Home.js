@@ -19,6 +19,7 @@ function Home() {
                 <ImageCarousel class="slider"/>
             </div>
             <div id="recents">
+                <h1>Recently added</h1>
                 {Recents.map((collection, index) => {
                     return (
                         <a class="recents-card" href={collection.link}>
