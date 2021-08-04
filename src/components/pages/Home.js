@@ -1,12 +1,12 @@
 import React from 'react';
 import './Home.css';
-import Navbar from "./components/navbar/Navbar";
-import ImageSlider from './components/ImageSlider';
-import {SliderData} from "./components/SliderData";
+import Navbar from "../navbar/Navbar";
+import ImageSlider from '../ImageSlider';
+import {SliderData} from "../SliderData";
 import { ParallaxProvider } from 'react-scroll-parallax';
 import { ParallaxBanner } from 'react-scroll-parallax';
-import ImageCarousel from './components/Carousel';
-import { Recents } from "./Recents";
+import ImageCarousel from '../Carousel';
+import { Recents } from "../../Recents";
 
 function Home() {
     return (
